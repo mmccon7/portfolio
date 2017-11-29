@@ -1,0 +1,106 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+#myNavbar {
+    color: #000000;
+}
+
+#about {
+    background-color: #D7EAFF;
+}
+
+
+/* Create a Parallax Effect */
+
+.bgimg-1 {
+    background-attachment: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 53%
+}
+
+@media only screen and (max-width: 600px) {
+    .bgimg-1 {
+        background-size: 90%;
+    }
+}
+
+.bgimg-2,
+.bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+
+/* First image (Logo. Full height) */
+
+.bgimg-1 {
+    background-image: url("../images/background.png");
+    min-height: 100%;
+    min-width: 100%;
+    animation: bgimg-1-spin infinite 60s linear;
+}
+
+@keyframes bgimg-1-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Second image (Portfolio) */
+
+.bgimg-2 {
+    background-image: url("../images/texture.png");
+    min-height: 400px;
+}
+
+
+
+/* Third image (Contact) */
+
+.bgimg-3 {
+    background-image: url("../images/charcol_background.jpg");
+    min-height: 400px;
+}
+
+.w3-wide {
+    letter-spacing: 10px;
+}
+
+.w3-hover-opacity {
+    cursor: pointer;
+}
+
+
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: scroll;
+    }
+}

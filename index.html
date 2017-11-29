@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Matthew McConaghie Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="assets/images/background_ro4_icon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+            <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+            <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+        </div>
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+            <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+            <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+            <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+        </div>
+    </div>
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+        </div>
+    </div>
+    <span class="w3-display-middle w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MATTHEW <span class="w3-hide-small"></span> MCCONAGHIE</span>
+    <!-- Container (About Section) -->
+    <div id="about">
+        <div class="w3-content w3-container w3-padding-64" id="about">
+            <h2 class="w3-center"><strong>ABOUT ME</strong></h2>
+            <h6>I am an Arizona native of 20 plus years and enjoy living in the desert with my wife and 3 beautiful children. I currently work as a IT Support Manager / Sales Manager at a building supply company and spend my days checking website sales, taking phone orders, and troubleshooting computer user issues. I am super excited to delve into new web technologies and love a good challenge. No task is too great. I will find a way to make it happen and make sure to get it done on time...That's my motto.</h6>
+            <div class="w3-row">
+                <div class="w3-col m6 w3-center w3-padding-large">
+                    <img src="assets/images/profile.png" class="w3-round w3-image" alt="Photo of Me" width="500 " height="333">
+                </div>
+                <!-- Hide this text on small devices -->
+                <div class="w3-col m6 w3-hide-small w3-padding-large ">
+                    <h6>I became interested in coding and website creation shortly after making a career/life change and foregoing the decision to pursue medical school after graduating college. I re-discovered my love for technology and decided to pursue that passion. I wanted to pursue Web Development because I love the idea that I can easily create an online presence or application from thin air. The sky's the limit. I am very artistic and love design, so naturally that part of Web Development snatched my attention from the get-go. Most importantly, I wanted to start a career in something I could be proud of, not just land another job, but achieve something greater. </h6>
+                </div>
+                <div class="w3-col m6 w3-center w3-padding-large ">
+                    <img src="assets/images/laptop.png" class="w3-round w3-image" alt="Laptop Man" width="273" height="63">
+                </div>
+            </div>
+            <br>
+            <br>
+            <p class="w3-large w3-center w3-padding-16 "><strong>Im really good at:</strong></p>
+            <p class="w3-wide "><i class="fa fa-laptop "></i>Web Development</p>
+            <div class="w3-light-grey ">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center " style="width:95% ">95%</div>
+            </div>
+            <p class="w3-wide "><i class="fa fa-google-plus-circle "></i>Google Fu</p>
+            <div class="w3-light-grey ">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center " style="width:85% ">85%</div>
+            </div>
+            <p class="w3-wide "><i class="fa fa-keyboard-o "></i>Web Design</p>
+            <div class="w3-light-grey ">
+                <div class="w3-container w3-padding-small w3-dark-grey w3-center " style="width:75% ">75%</div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="w3-row w3-center w3-dark-grey w3-padding-16 ">
+            <div class="w3-center w3-section ">
+                <br>
+                <br>
+                <span class="w3-xlarge ">I Do Hard Things</span>
+                <h5>"Because no one looks back on their life and remembers the nights they had plenty of sleep... "</h5>
+            </div>
+            <br>
+            <br>
+        </div>
+        <!-- Second Parallax Image with Portfolio Text -->
+        <div class="bgimg-2 w3-display-container w3-opacity-min ">
+            <div class="w3-display-middle ">
+                <span class="w3-xxlarge w3-text-white w3-wide ">PORTFOLIO</span>
+            </div>
+        </div>
+    </div>
+    <!-- Container (Portfolio Section) -->
+    <div class="w3-content w3-container w3-padding-64" id="portfolio">
+        <h2 class="w3-center "><strong>MY WORK</strong></h2>
+        <h5 class="w3-center "><em>Here are some of my latest projects.<br> Click on the images to preview the live sites</em></h5>
+        <br>
+        <br>
+        <br>
+        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+        <div class="w3-row-padding w3-center ">
+            <div class="w3-col m4" id="adjust">
+                <a target="_blank" href="https://cryptic-coast-10586.herokuapp.com/"><img src="assets/images/MedGram.png" style="width:100%" class="w3-hover-opacity" href="" alt="MedGram"></a>
+                <h5>MedGram Team Project</h5>
+                <a target="_blank" href="https://github.com/jamesb575/medGram">view this code on GitHub</p></a>
+            </div>
+            <div class="w3-col m4" id="adjust">
+                <a target="_blank" href="https://mmccon7.github.io/Project-1/"><img src="assets/images/pet-finder1.png" style="width:100% " class="w3-hover-opacity " alt="PetFinder"></a>
+                <h5>Pet SOS PetFinder Team Project</h5>
+                <a target="_blank" href="https://github.com/kkruel8100/Project-Find-A-Pet">view this code on GitHub</p></a>
+            </div>
+            <div class="w3-col m4" id="adjust">
+                <a target="_blank" href="https://serene-caverns-98154.herokuapp.com/"><img src="assets/images/restaurant.png" style="width:100% " class="w3-hover-opacity " alt="Hot Restaurant App"></a>
+                <h5>Hot Restaurant App</h5>
+                <a target="_blank" href="https://github.com/mmccon7/hotRestaurant-app">view this code on GitHub</p></a>
+            </div>
+        </div>
+        <div class="w3-row-padding w3-center w3-section ">
+            <div class="w3-col m4" id="adjust">
+                <a target="_blank" href="https://guarded-lake-66186.herokuapp.com/burgers"><img src="assets/images/burger.png" style="width:100%" class="w3-hover-opacity " alt="Eat Da Burger">
+                <h5>Eat Da Burger App</h5>
+                <a target="_blank" href="https://github.com/mmccon7/EatDa-Burger">view this code on GitHub</p></a>
+            </div>
+            <div class="w3-col m4" id="adjust">
+                <a target="_blank" href="https://mmccon7.github.io/TriviaGame/"><img src="assets/images/Trivia.png" style="width:100% " class="w3-hover-opacity " alt="Trivia Game"></a>
+                <h5>Trivia Game</h5>
+                <a target="_blank" href="https://github.com/mmccon7/TriviaGame">view this code on GitHub</p></a>
+            </div>
+            <div class="w3-col m4" id="adjust">
+                <a target="_blank" href="https://fast-refuge-33989.herokuapp.com/"><img src="assets/images/friend.png" style="width:100% " class="w3-hover-opacity " alt="Friend Finder"></a>
+                <h5>Friend Finder</h5>
+                <a target="_blank" href="https://github.com/mmccon7/FriendFinder">view this code on GitHub</p></a>
+            </div>
+        </div>
+    </div>
+    <!-- Modal for full size images on click-->
+    <div id="modal01 " class="w3-modal w3-black " onclick="this.style.display='none' ">
+        <span class="w3-button w3-large w3-black w3-display-topright " title="Close Modal Image "><i class="fa fa-remove "></i></span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64 ">
+            <img id="img01 " class="w3-image ">
+            <p id="caption " class="w3-opacity w3-large "></p>
+        </div>
+    </div>
+    <!-- Third Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container w3-opacity-min ">
+        <div class="w3-display-middle ">
+            <span class="w3-xxlarge w3-text-white w3-wide ">CONTACT</span>
+        </div>
+    </div>
+    <!-- Container (Contact Section) -->
+    <div class="w3-content w3-container w3-padding-64 " id="contact">
+        <h2 class="w3-center"><strong>GIVE ME A SHOUT!</strong></h2>
+        <h4 class="w3-center"><em>I'd love your feedback</em></h4>
+        <div class="w3-panel">
+            <div class="w3-large w3-margin-bottom ">
+                <br>
+            </div>
+            <div class="w3-center w3-xxxlarge w3-section ">
+                <h4>Email me your contact info by filling out the form below, or just connect with me through one of the following medias:</h4>
+                <a href="https://www.linkedin.com/in/matthewmcconaghie " target="_blank "><i class="fa fa-linkedin w3-hover-opacity "></i></a>
+                <a href="https://www.facebook.com/matthew.m.mcconaghie " target="_blank "><i class="fa fa-facebook-official w3-hover-opacity "></i></a>
+                <a href="https://github.com/mmccon7 " target="_blank "><i class="fa fa-github w3-hover-opacity "></i></a>
+            </div>
+            <form action="mailto:matthewmcconaghie@gmail.com" method="post" enctype="text/plain">
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                    <div class="w3-half">
+                        <input class="w3-input w3-border" type="text" placeholder="Name" required name=" Name">
+                    </div>
+                    <div class="w3-half">
+                        <input class="w3-input w3-border" type="email" required placeholder="Email" name=" Email">
+                    </div>
+                </div>
+                <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                <button class="w3-button w3-black w3-left w3-section" type="submit">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+                <button class="w3-button w3-black w3-right w3-section" type="reset">
+                    <i></i> CLEAR FORM
+                </button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <!-- Footer -->
+    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off ">
+        <a href="#about " class="w3-button w3-light-grey "><i class="fa fa-arrow-up w3-margin-right "></i>To the top</a>
+        <div class="w3-xlarge w3-section ">
+            <a href="https://www.linkedin.com/in/matthewmcconaghie " target="_blank "><i class="fa fa-linkedin w3-hover-opacity "></i></a>
+            <a href="https://www.facebook.com/matthew.m.mcconaghie " target="_blank "><i class="fa fa-facebook-official w3-hover-opacity "></i></a>
+            <a href="https://github.com/mmccon7 " target="_blank "><i class="fa fa-github w3-hover-opacity "></i></a>
+        </div>
+    </footer>
+    <script src="assets/js/script.js "></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+</body>
+
+</html>
